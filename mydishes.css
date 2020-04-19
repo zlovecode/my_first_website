@@ -1,0 +1,14 @@
+body {
+  background-image: url("9.jpg");
+  background-size: cover;
+}
+
+h2 {
+  border-style: double;
+  border-color: yellow;
+}
+
+h2 {
+  border-style: dotted;
+  border-color: yellow;
+}

@@ -1,0 +1,38 @@
+/*Selector {
+	Propety: value;
+*/
+
+h2 {
+	color:green;
+}
+
+h2 {
+	color:maroon;
+	font-family: fantasy;
+	font-size: 4em;
+	animation-fill-mode: backwards;
+	border-bottom: 2px solid green;
+	box-shadow: 5px 5px;
+	text-align: center;
+}
+
+body {
+  background-image: url("5841.jfif");
+  background-size: cover;
+}
+.container {
+	display:flex;
+	justify-content: center;
+	flex-wrap: wrap;
+}
+
+img {
+	width: 450px;
+	height:300px;
+	margin: 10px;
+	transition: all 3s;
+}
+
+img:hover{
+	transform: scale(1.1);
+}
